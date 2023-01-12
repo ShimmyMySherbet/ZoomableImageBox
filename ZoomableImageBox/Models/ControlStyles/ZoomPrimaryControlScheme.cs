@@ -1,0 +1,61 @@
+﻿namespace ShimmyMySherbet.WinForms.ZoomableImageBox.Models.ControlStyles
+{
+	/// <summary>
+	/// A ZoomablePictureBox Control Scheme that prioritizes zooming over scrolling.
+	/// </summary>
+	public class ZoomPrimaryControlScheme : IZoomablePictureBoxControlScheme
+	{
+		public void OnDoubleClick(ZoomableImageBox sender, bool shift, bool control, bool alt)
+		{
+			if (control || shift)
+			{
+				sender.PanX = 0.5f;
+				sender.PanY = 0.5f;
+				sender.Zoom = 1f;
+			}
+		}
+
+		public void OnScrollDown(ZoomableImageBox sender, bool shift, bool control, bool alt)
+		{
+			if (control && shift)
+			{
+				// No Control
+			}
+			else if (control)
+			{
+				sender.PanY -= 0.1f;
+
+			}
+			else if (shift)
+			{
+				sender.PanX -= 0.1f;
+			}
+			else
+			{
+				sender.Zoom += 0.1f;
+
+			}
+		}
+
+		public void OnScrollUp(ZoomableImageBox sender, bool shift, bool control, bool alt)
+		{
+			if (control && shift)
+			{
+				// No Control
+			}
+			else if (control)
+			{
+				sender.PanY += 0.1f;
+
+			}
+			else if (shift)
+			{
+				sender.PanX += 0.1f;
+			}
+			else
+			{
+				sender.Zoom -= 0.1f;
+			}
+		}
+	}
+}

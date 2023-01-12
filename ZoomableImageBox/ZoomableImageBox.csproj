@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net4.8-windows;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ShimmyMySherbet.WinForms.ZoomableImageBox</RootNamespace>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <LangVersion>9.0</LangVersion>
+    <PackageId>ShimmyMySherbet.WinForms.ZoomableImageBox</PackageId>
+    <Title>WinForms Zoomable Image Box</Title>
+    <Authors>ShimmyMySherbet</Authors>
+    <Description>A ZoomableImageBox Control for Windows Forms. 
+
+Supports different control schemes for zooming, scrolling, and panning. Including click and drag options to scroll the image around on screen.</Description>
+    <Copyright>ShimmyMySherbet</Copyright>
+    <RepositoryUrl>https://github.com/ShimmyMySherbet/ZoomableImageBox</RepositoryUrl>
+    <PackageTags>Windows Forms WinForms ControlLibrary Zoomable Image Box</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
