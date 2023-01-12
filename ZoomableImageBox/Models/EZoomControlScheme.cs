@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ShimmyMySherbet.WinForms.ZoomableImageBox.Models
+namespace ShimmyMySherbet.WinForms.ZoomableImgBox.Models
 {
 	public enum EZoomControlScheme
 	{

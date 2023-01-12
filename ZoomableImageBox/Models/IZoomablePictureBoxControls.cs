@@ -1,4 +1,4 @@
-﻿namespace ShimmyMySherbet.WinForms.ZoomableImageBox.Models
+﻿namespace ShimmyMySherbet.WinForms.ZoomableImgBox.Models
 {
 	public interface IZoomablePictureBoxControlScheme
 	{

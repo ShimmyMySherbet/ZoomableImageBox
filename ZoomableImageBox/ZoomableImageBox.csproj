@@ -5,7 +5,7 @@
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
-    <RootNamespace>ShimmyMySherbet.WinForms.ZoomableImageBox</RootNamespace>
+    <RootNamespace>ShimmyMySherbet.WinForms.ZoomableImgBox</RootNamespace>
     <Nullable>enable</Nullable>
     <WarningsAsErrors>nullable</WarningsAsErrors>
     <LangVersion>9.0</LangVersion>

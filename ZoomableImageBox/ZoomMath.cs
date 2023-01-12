@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Drawing;
 
-namespace ShimmyMySherbet.WinForms.ZoomableImageBox
+namespace ShimmyMySherbet.WinForms.ZoomableImgBox
 {
-
 	/// <summary>
 	/// Provides a collection of math functions used by <seealso cref="ZoomableImageBox"/>
 	/// </summary>

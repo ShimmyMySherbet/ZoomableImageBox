@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using ShimmyMySherbet.WinForms.ZoomableImageBox.Models;
-using ShimmyMySherbet.WinForms.ZoomableImageBox.Models.ControlStyles;
+using ShimmyMySherbet.WinForms.ZoomableImgBox.Models;
+using ShimmyMySherbet.WinForms.ZoomableImgBox.Models.ControlStyles;
 
-namespace ShimmyMySherbet.WinForms.ZoomableImageBox
+namespace ShimmyMySherbet.WinForms.ZoomableImgBox
 {
 	public partial class ZoomableImageBox
 	{

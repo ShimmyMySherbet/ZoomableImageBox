@@ -1,4 +1,4 @@
-﻿namespace ShimmyMySherbet.WinForms.ZoomableImageBox.Models.ControlStyles
+﻿namespace ShimmyMySherbet.WinForms.ZoomableImgBox.Models.ControlStyles
 {
 	/// <summary>
 	/// A control scheme that avoid accidental scrolling.

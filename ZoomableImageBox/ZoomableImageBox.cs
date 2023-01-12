@@ -1,9 +1,12 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace ShimmyMySherbet.WinForms.ZoomableImageBox
+namespace ShimmyMySherbet.WinForms.ZoomableImgBox
 {
+	[ToolboxItem(true)]
+	[DesignTimeVisible(true)]
 	public partial class ZoomableImageBox : Control
 	{
 		protected bool _MouseDown = false;
